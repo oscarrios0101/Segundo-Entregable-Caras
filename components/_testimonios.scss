@@ -1,0 +1,57 @@
+.testimonios {
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.testimonios__titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+.testimonios__introduccion {
+  margin-bottom: 2.5rem;
+}
+
+.testimonios__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonios__tarjeta {
+  background-color: $blanco;
+  border-radius: 1rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 1.25rem;
+  width: 18.75rem;
+  min-height: 20rem;
+  margin: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.testimonios__avatar {
+  margin-bottom: 1.25rem;
+}
+
+.testimonios__avatar img {
+  border-radius: 50%;
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: cover;
+}
+
+.testimonios__contenido {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.testimonios__autor {
+  font-weight: bold;
+  text-align: right;
+  margin-top: auto;
+}
+
+//no hay necesidad de media queries en este archivo

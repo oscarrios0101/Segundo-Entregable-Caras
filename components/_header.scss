@@ -1,0 +1,39 @@
+// Estilos
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  font-family: "Playfair-display-Regular", serif;
+
+  @include phones {
+    padding: 1rem;
+  }
+}
+
+.header__logo {
+  width: clamp(100px, 20vw, 250px);
+}
+
+.header__nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.header__link {
+  text-decoration: none;
+  color: black;
+  font-family: "Barlow-Bold", sans-serif;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: white;
+    background-color: $rojo;
+  }
+
+  @include phones {
+    // Estilos adicionales para enlaces en dispositivos móviles
+    font-size: 0.8rem;
+  }
+}

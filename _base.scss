@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  margin: 1.5rem auto;
+}
+
+img {
+  width: 100%;
+}
+
+h2,
+h3 {
+  text-align: center;
+  font-size: clamp(2rem, 1.2vw, 3rem);
+  margin: 2rem auto;
+}
+
+@font-face {
+  font-family: "Playfair-display-Regular";
+  src: url(/assets/Playfair-display-Regular.ttf);
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url(/assets/Barlow-bold.ttf);
+}
+
+@media (hover: hover) {
+  .grid-wrapper > *:hover {
+    transform: scale(1.05);
+    background-color: $rojo;
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Playfair-display-Regular", serif;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__social-link {
+  text-decoration: none;
+}
+
+.footer__social-link__icon {
+  font-size: 24px;
+  color: black;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: $rojo;
+    transform: scale(1.1);
+  }
+}
+
+.footer__copyright {
+  margin-top: 1rem;
+  text-align: center;
+}

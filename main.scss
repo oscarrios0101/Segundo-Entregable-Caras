@@ -1,0 +1,18 @@
+@import "variables.scss";
+@import "base.scss";
+@import "mixins.scss";
+@import "layout.scss";
+//estructura de la pagina
+
+//importar formatos
+//importar header
+
+@import "components/header.scss";
+
+@import "components/_formats.scss";
+
+@import "components/_destacada.scss";
+
+@import "components/_testimonios.scss";
+
+@import "components/_footer.scss";

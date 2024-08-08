@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REVISTA CARAS</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img class="header__logo" src="/assets/Logo 1.png" alt="" />
+      <nav class="header__nav">
+        <a class="header__link" href="#formulario">Subscribirse</a>
+        <a class="header__link" href="#destacada">Beneficios</a>
+      </nav>
+    </header>
+    <main>
+      <section class="formulario" id="formulario">
+        <form class="formulario__form">
+          <label class="formulario__label" for="nombre">Nombre</label>
+          <input
+            class="formulario__input"
+            type="text"
+            placeholder="Nombre"
+            id="nombre"
+          />
+          <label class="formulario__label" for="apellido">Apellido</label>
+          <input
+            class="formulario__input"
+            type="text"
+            placeholder="Apellido"
+            id="apellido"
+          />
+          <label class="formulario__label" for="email">Email</label>
+          <input
+            class="formulario__input"
+            type="email"
+            placeholder="Email"
+            id="email"
+          />
+          <input
+            class="formulario__submit"
+            type="submit"
+            value="Subscribirse"
+          />
+        </form>
+      </section>
+      <section class="destacada-section">
+        <h3 class="destacada-section__title">
+          Beneficios de ser parte de la comunidad Caras
+        </h3>
+
+        <div class="destacada-section__grid">
+          <img
+            class="destacada-section__image foto1"
+            src="/assets/fashion1.jpg"
+            alt="foto de moda 1"
+          />
+          <img
+            class="destacada-section__image foto2"
+            src="/assets/fashion2.jpg"
+            alt=" Fotos de moda 2"
+          />
+          <img
+            class="destacada-section__image foto3"
+            src="/assets/fashion3.jpg"
+            alt=" Fotos de moda 3"
+          />
+
+          <p class="destacada-section__benefit comentario1">
+            Recibirás una edición mensual con temas actuales y relevantes para
+            tu estilo de vida
+          </p>
+          <p class="destacada-section__benefit comentario2">
+            Podrás conectarte con otros miembros de la comunidad y compartir
+            experiencias
+          </p>
+          <p class="destacada-section__benefit comentario3">
+            Disfrutarás de descuentos en algunos de los mejores establecimientos
+            y marcas de la ciudad
+          </p>
+          <p class="destacada-section__benefit comentario4">
+            Accederás a conciertos en vivo
+          </p>
+          <p class="destacada-section__benefit comentario5">
+            Workshops de belleza
+          </p>
+          <p class="destacada-section__benefit comentario6">Y mucho más...</p>
+        </div>
+      </section>
+
+      <section class="testimonios">
+        <h3 class="testimonios__titulo">Testimonios</h3>
+        <p class="testimonios__introduccion">
+          ¿Qué dicen algunos de los miembros de la comunidad?
+        </p>
+        <section class="testimonios__lista">
+          <div class="testimonios__tarjeta">
+            <div class="testimonios__avatar">
+              <img src="/assets/avatar1.jpg" alt="Avatar de testimonio 1" />
+            </div>
+            <div class="testimonios__contenido">
+              <p>
+                "La comunidad Caras me ha permitido conectarme con otras mujeres
+                que piensan como yo, y me ha brindado acceso a descuentos y
+                experiencias que me han mejorado mi vida diaria. Me siento parte
+                de una comunidad que se preocupa por mi bienestar y mi
+                felicidad."
+              </p>
+              <strong class="testimonios__autor">Marcela G.</strong>
+            </div>
+          </div>
+          <div class="testimonios__tarjeta">
+            <div class="testimonios__avatar">
+              <img src="/assets/avatar2.jpg" alt="Avatar de testimonio 2" />
+            </div>
+            <div class="testimonios__contenido">
+              <p>
+                "Caras es mi revista favorita, me gustan los reportajes y las
+                fotos, siempre me dejan inspirada. Me gusta que me hablen de
+                moda y belleza, es la unica que me hace sentir joven y confiada
+                en mi piel."
+              </p>
+              <strong class="testimonios__autor">Sofia M.</strong>
+            </div>
+          </div>
+          <div class="testimonios__tarjeta">
+            <div class="testimonios__avatar">
+              <img src="/assets/avatar3.jpg" alt="Avatar de testimonio 3" />
+            </div>
+            <div class="testimonios__contenido">
+              <p>
+                "La revista Caras es mi guia para encontrar el estilo y la
+                confianza en mi piel. Me gustan las recomendaciones y consejos
+                que me dan, me han ayudado a encontrar mi estilo y a sentirme
+                autentica"
+              </p>
+              <strong class="testimonios__autor">Laura R.</strong>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__social">
+        <a class="footer__social-link" href="https://x.com/carasmexico">
+          <i class="footer__social-link__icon fa-brands fa-x-twitter"></i>
+        </a>
+        <a
+          class="footer__social-link"
+          href="https://www.instagram.com/carasmexico/"
+        >
+          <i class="footer__social-link__icon fa-brands fa-instagram"></i>
+        </a>
+        <a
+          class="footer__social-link"
+          href="https://www.facebook.com/Revista.Caras"
+        >
+          <i class="footer__social-link__icon fa-brands fa-facebook"></i>
+        </a>
+      </div>
+      <p class="footer__copyright">
+        Copyright 2021. Todos los derechos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
