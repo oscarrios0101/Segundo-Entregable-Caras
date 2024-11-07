@@ -12,8 +12,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- tostify js -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
   </head>
   <body>
+    <script defer src="main.js"></script>
+
     <header class="header">
       <img class="header__logo" src="assets/Logo 1.png" alt="" />
       <nav class="header__nav">
@@ -23,7 +32,7 @@
     </header>
     <main>
       <section class="formulario" id="formulario">
-        <form class="formulario__form">
+        <form novalidate class="formulario__form">
           <label class="formulario__label" for="nombre">Nombre</label>
           <input
             class="formulario__input"
@@ -171,5 +180,9 @@
         Copyright 2021. Todos los derechos reservados.
       </p>
     </footer>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
   </body>
 </html>
